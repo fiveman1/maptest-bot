@@ -17,4 +17,4 @@ node deploy-commands.js
 node bot.js
 ```
 
-also, the bot requires the applications.commands scope, which can be found in developer portal -> bot -> oauth2 -> url generator -> scopes, simply generate link with applications.commands scope checked then add bot to server (can be done if bot already in server)
+also, the bot requires the bot and applications.commands scope, which can be found in developer portal -> bot -> oauth2 -> url generator -> scopes, simply generate link with the bot and applications.commands scopes checked then add bot to server (can be done if bot already in server). no other permissions are needed.
