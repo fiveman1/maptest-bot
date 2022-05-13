@@ -29,6 +29,10 @@ client.on('interactionCreate', async interaction => {
 	}
 });
 
+client.on("error", async error => {
+	
+});
+
 client.once("ready", () => {
     console.log("Ready");
 });
