@@ -2,8 +2,10 @@
   "dependencies": {
     "@discordjs/builders": "^0.13.0",
     "@discordjs/rest": "^0.4.1",
+    "csv-parse": "^5.0.4",
     "discord-api-types": "^0.32.1",
     "discord.js": "^13.6.0",
-    "noblox.js": "^4.13.1"
+    "noblox.js": "^4.13.1",
+    "node-csv": "^0.1.2"
   }
 }

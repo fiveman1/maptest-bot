@@ -18,3 +18,5 @@ node bot.js
 ```
 
 also, the bot requires the bot and applications.commands scope, which can be found in developer portal -> bot -> oauth2 -> url generator -> scopes, simply generate link with the bot and applications.commands scopes checked then add bot to server (can be done if bot already in server). no other permissions are needed.
+
+finally, the bhop/surf/deathrun cookies in the config.json require the full ``_|WARNING:-DO-NOT-SHARE-THIS.--Sharing-this-will-allow-someone-to-log-in-as-you-and-to-steal-your-ROBUX-and-items.|_`` text, so include it

@@ -2,7 +2,7 @@ const fs = require('node:fs');
 const { Client, Collection, Intents } = require("discord.js");
 const {token} = require("./config.json");
 
-const client = new Client({ intents: [Intents.FLAGS.GUILDS]});
+const client = new Client({intents: [Intents.FLAGS.GUILDS]});
 
 client.commands = new Collection();
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
@@ -35,6 +35,10 @@ client.on("error", async error => {
 
 client.once("ready", () => {
     console.log("Ready");
+	client.user.setActivity({
+		name: "use /take and /submit",
+		type: 0
+	});
 });
 
 client.login(token);
